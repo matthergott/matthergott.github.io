@@ -2,6 +2,8 @@ import React from "react";
 
 import "./GolfMap.css";
 
+import {GOOGLE_API_KEY} from "../../config";
+
 import iconLinks from "../../helperFiles/iconLinks";
 
 import bardmoor from "../../golfCourses/bardmoor";
@@ -71,7 +73,7 @@ const GolfMap = () => {
     };
 
     const googleMapsScript = window.document.createElement("script");
-    googleMapsScript.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBG4aHXJN8LP8qdXMtOjsgI_z3UHu0CgdU&callback=initMap";
+    googleMapsScript.src = `https://maps.googleapis.com/maps/api/js?key=${GOOGLE_API_KEY}&callback=initMap`;
     googleMapsScript.async = true;
     googleMapsScript.defer = true;
     window.document.body.appendChild(googleMapsScript);
