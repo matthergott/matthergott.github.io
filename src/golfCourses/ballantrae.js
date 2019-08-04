@@ -3,18 +3,18 @@ import ReactDOMServer from 'react-dom/server';
 import initCourse from "../helperFiles/initCourse";
 import iconLinks from "../helperFiles/iconLinks";
 
-const title = 'Monterra Golf';
-const city = 'The Blue Mountains, ON';
+const title = 'Ballantrae Golf and Country Club';
+const city = 'Stouffville, ON';
 const designer = '';
-const website = 'https://www.bluemountain.ca/things-to-do/activities/monterra-golf';
-const coords = { lat: 44.504846, lng: -80.309233 };
+const website = 'https://ballantraegolfclub.com';
+const coords = { lat: 44.047564, lng: -79.289148 };
 
 const description = ReactDOMServer.renderToStaticMarkup(initCourse.description(title, city, designer, website));
 
 const init = (map) => {
-    initCourse.init(map, title, coords, description, iconLinks.unlisted);
+  initCourse.init(map, title, coords, description, iconLinks.unlisted);
 };
 
 export default {
-    init
+  init
 };
