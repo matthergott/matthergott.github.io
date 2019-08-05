@@ -25,4 +25,4 @@ yarn-error.log*
 config.js*
 
 # webstorm
-/.idea
+.idea/

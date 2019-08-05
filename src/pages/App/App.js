@@ -4,6 +4,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
 import './App.css';
+import Home from "../Home/Home";
 import GolfMap from "../GolfMap/GolfMap";
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
         <Router>
             <div className="app">
                 <Switch>
-                  {/*<Route exact path="/" component={Home} />*/}
+                  <Route exact path="/" component={Home} />
                   <Route exact path="/golf" component={GolfMap} />
                 </Switch>
             </div>
