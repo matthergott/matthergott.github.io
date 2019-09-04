@@ -3,11 +3,11 @@ import ReactDOMServer from 'react-dom/server';
 import initCourse from "../helperFiles/initCourse";
 import iconLinks from "../helperFiles/iconLinks";
 
-const title = 'The Grey Silo Golf Club';
-const city = 'Waterloo, ON';
-const designer = 'Stephen Young';
-const website = 'http://www.golfnorth.ca/greysilo/';
-const coords = { lat: 43.517051, lng: -80.492193 };
+const title = 'Cog Hill Golf & Country Club - Ravines Course';
+const city = 'Lemont, IL';
+const designer = 'David McIntosh & Bert Coghill | 1929';
+const website = 'https://www.coghillgolf.com/golf/course-n-2';
+const coords = { lat: 41.676692, lng: -87.951000 };
 
 const description = ReactDOMServer.renderToStaticMarkup(initCourse.description(title, city, designer, website));
 

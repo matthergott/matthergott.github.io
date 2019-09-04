@@ -3,11 +3,11 @@ import ReactDOMServer from 'react-dom/server';
 import initCourse from "../helperFiles/initCourse";
 import iconLinks from "../helperFiles/iconLinks";
 
-const title = 'The Grey Silo Golf Club';
-const city = 'Waterloo, ON';
-const designer = 'Stephen Young';
-const website = 'http://www.golfnorth.ca/greysilo/';
-const coords = { lat: 43.517051, lng: -80.492193 };
+const title = 'Burford Golf Links';
+const city = 'Burford, ON';
+const designer = '';
+const website = 'https://www.golfnorth.ca/burford/';
+const coords = { lat: 43.137396, lng: -80.463666 };
 
 const description = ReactDOMServer.renderToStaticMarkup(initCourse.description(title, city, designer, website));
 
