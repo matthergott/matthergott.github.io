@@ -21,3 +21,29 @@ html, body, #root, .app {
 #legend img {
     vertical-align: middle;
 }
+
+#back-button {
+    position: absolute;
+    z-index: 1;
+    background: none rgb(255, 255, 255);
+    border: 0px;
+    margin: 10px;
+    padding: 0px;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 2px;
+    height: 40px;
+    width: 40px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+    text-decoration: none;
+    display: flex;
+}
+
+#back-button .back-button-fa {
+    margin: auto;
+}
+
+#back-button svg {
+    color: rgb(102, 102, 102);
+;
+}

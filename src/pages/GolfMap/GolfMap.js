@@ -4,6 +4,9 @@ import "./GolfMap.css";
 
 import {GOOGLE_API_KEY} from "../../config";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
+
 import iconLinks from "../../helperFiles/iconLinks";
 
 import bardmoor from "../../golfCourses/bardmoor";
@@ -73,7 +76,7 @@ import redlandsMesa from "../../golfCourses/redlandsMesa";
 import soldierHollow from "../../golfCourses/soldierHollow";
 import yochaDehe from "../../golfCourses/yochaDehe";
 
-const GolfMap = () => {
+const GolfMap = (props) => {
     window.initMap = () => {
         const map = new window.google.maps.Map(document.getElementById('google-map'), {
             zoom: 7,
@@ -92,8 +95,8 @@ const GolfMap = () => {
         carruthersCreek.init(map);
         cherryDowns.init(map);
         cinnamonHill.init(map);
-        cogHillDubsdread.init(map);
         cogHillRavines.init(map);
+        cogHillDubsdread.init(map);
         copperCreek.init(map);
         creekside.init(map);
         deerCreekNorth.init(map);
@@ -190,6 +193,9 @@ const GolfMap = () => {
 
     return (
         <>
+            <a href="" onClick={() => props.setPageName('home')} id="back-button">
+                <FontAwesomeIcon icon={faArrowLeft} size="lg" className="back-button-fa" />
+            </a>
             <div id="google-map" />
             <div id="legend"><h3>Legend</h3></div>
         </>

@@ -1,13 +1,24 @@
 import React from "react";
 
-const Home = () => {
-  const name = 'Matt';
-  const element = <h1>Salut, je m'appelle {name}</h1>;
+import 'bulma/css/bulma.min.css'
+
+import HomePageHeader from "../../components/HomePageHeader";
+import HomePageBody from "../../components/HomePageBody";
+import HomePageFooter from "../../components/HomePageFooter";
+import HomePageAlerts from "../../components/HomePageAlerts";
+
+const Home = (props) => {
+  const navigateToGolfMap = () => {
+    props.setPageName('golfMap');
+  };
 
   return (
-    <div>
-      {element}
-    </div>
+    <>
+      <HomePageAlerts/>
+      <HomePageHeader/>
+      <HomePageBody navigateToGolfMapFunc={navigateToGolfMap}/>
+      <HomePageFooter/>
+    </>
   );
 };
 

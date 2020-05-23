@@ -1,8 +1,33 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './pages/App/App';
+import './style/index.css';
 import * as serviceWorker from './serviceWorker';
+
+import { Switch, Route } from "react-router";
+import { BrowserRouter } from "react-router-dom";
+import { Helmet } from "react-helmet";
+
+import Router from "./components/Router"
+
+import './style/App.css';
+
+function App() {
+  return (
+    <>
+      <Helmet>
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+        <meta charSet="utf-8"/>
+        <title>Info Windows</title>
+      </Helmet>
+
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/" component={Router} />
+        </Switch>
+      </BrowserRouter>
+    </>
+  );
+}
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
