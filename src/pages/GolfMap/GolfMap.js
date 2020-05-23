@@ -75,6 +75,7 @@ import eagleRanch from "../../golfCourses/eagleRanch";
 import redlandsMesa from "../../golfCourses/redlandsMesa";
 import soldierHollow from "../../golfCourses/soldierHollow";
 import yochaDehe from "../../golfCourses/yochaDehe";
+import monarchBay from "../../golfCourses/monarchBay";
 
 const GolfMap = (props) => {
     window.initMap = () => {
@@ -124,6 +125,7 @@ const GolfMap = (props) => {
         meadowbrook.init(map);
         millRun.init(map);
         moccasinWallow.init(map);
+        monarchBay.init(map);
         monterra.init(map);
         oakridge.init(map);
         ospreyValleyHeathlands.init(map);
