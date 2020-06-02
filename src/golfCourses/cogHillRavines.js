@@ -7,7 +7,7 @@ const title = 'Cog Hill Golf & Country Club - Ravines Course';
 const city = 'Lemont, IL';
 const designer = 'David McIntosh & Bert Coghill | 1929';
 const website = 'https://www.coghillgolf.com/golf/course-n-2';
-const coords = { lat: 41.676692, lng: -87.951000 };
+const coords = { lat: 41.684716, lng: -87.946360 };
 
 const description = ReactDOMServer.renderToStaticMarkup(initCourse.description(title, city, designer, website));
 
