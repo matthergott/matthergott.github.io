@@ -5,7 +5,7 @@ import iconLinks from "../helperFiles/iconLinks";
 
 const title = 'Savannah Golf Links';
 const city = 'Cambridge, ON';
-const designer = 'Since 1998';
+const designer = 'Robert F. Moote & Associates | 1998';
 const website = 'http://www.savannahgolflinks.ca';
 const coords = { lat: 43.329400, lng: -80.285886 };
 

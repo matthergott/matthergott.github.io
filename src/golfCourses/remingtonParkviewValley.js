@@ -3,11 +3,11 @@ import ReactDOMServer from 'react-dom/server';
 import initCourse from "../helperFiles/initCourse";
 import iconLinks from "../helperFiles/iconLinks";
 
-const title = 'Lakeridge Links';
-const city = 'Whitby, ON';
-const designer = 'Robert F. Moote & Associates';
-const website = 'https://www.lakeridgelinks.com/the-courses/lakeridge-links/';
-const coords = { lat: 43.974648, lng: -79.018496 };
+const title = 'Remington Parkview G&CC - Valley Course';
+const city = 'Markham, ON';
+const designer = '';
+const website = 'https://remingtonparkview.com/';
+const coords = { lat: 43.841491, lng: -79.236134 };
 
 const description = ReactDOMServer.renderToStaticMarkup(initCourse.description(title, city, designer, website));
 

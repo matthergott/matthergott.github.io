@@ -3,11 +3,11 @@ import ReactDOMServer from 'react-dom/server';
 import initCourse from "../helperFiles/initCourse";
 import iconLinks from "../helperFiles/iconLinks";
 
-const title = 'Lakeridge Links';
-const city = 'Whitby, ON';
-const designer = 'Robert F. Moote & Associates';
-const website = 'https://www.lakeridgelinks.com/the-courses/lakeridge-links/';
-const coords = { lat: 43.974648, lng: -79.018496 };
+const title = 'The Club at Bond Head - South Course';
+const city = 'Bond Head, ON';
+const designer = 'Jason Straka';
+const website = 'https://bondhead.clublink.ca';
+const coords = { lat: 44.081923, lng: -79.697037 };
 
 const description = ReactDOMServer.renderToStaticMarkup(initCourse.description(title, city, designer, website));
 

@@ -38,7 +38,8 @@ import creekside from "../../golfCourses/creekside";
 import doonValley from "../../golfCourses/doonValley";
 import monterra from "../../golfCourses/monterra";
 import blackDiamond from "../../golfCourses/blackDiamond";
-import bondHead from "../../golfCourses/bondHead";
+import bondHeadNorth from "../../golfCourses/bondHeadNorth";
+import bondHeadSouth from "../../golfCourses/bondHeadSouth";
 import whitevale from "../../golfCourses/whitevale";
 import royalAshburn from "../../golfCourses/royalAshburn";
 import ballantrae from "../../golfCourses/ballantrae";
@@ -76,8 +77,19 @@ import redlandsMesa from "../../golfCourses/redlandsMesa";
 import soldierHollow from "../../golfCourses/soldierHollow";
 import yochaDehe from "../../golfCourses/yochaDehe";
 import monarchBay from "../../golfCourses/monarchBay";
+import remingtonParkviewValley from "../../golfCourses/remingtonParkviewValley";
+import oaksOfStGeorge from "../../golfCourses/oaksOfStGeorge";
+import kedronDells from "../../golfCourses/kedronDells";
 
 const GolfMap = (props) => {
+    const addToMapByDate = [
+        [monarchBay, new Date(2019, 9, 6)],
+        [remingtonParkviewValley, new Date(2020, 5, 26)],
+        [oaksOfStGeorge, new Date(2020, 5, 30)],
+        [kedronDells, new Date(2020, 6, 4)],
+        [bondHeadSouth, new Date(2020, 6, 8)],
+    ];
+
     window.initMap = () => {
         const map = new window.google.maps.Map(document.getElementById('google-map'), {
             zoom: 7,
@@ -89,7 +101,7 @@ const GolfMap = (props) => {
         bardmoor.init(map);
         batteauxCreek.init(map);
         blackDiamond.init(map);
-        bondHead.init(map);
+        bondHeadNorth.init(map);
         bunkerHill.init(map);
         burford.init(map);
         bushwood.init(map);
@@ -125,7 +137,6 @@ const GolfMap = (props) => {
         meadowbrook.init(map);
         millRun.init(map);
         moccasinWallow.init(map);
-        monarchBay.init(map);
         monterra.init(map);
         oakridge.init(map);
         ospreyValleyHeathlands.init(map);
@@ -151,6 +162,13 @@ const GolfMap = (props) => {
         woodstockMeadows.init(map);
         wyndance.init(map);
         yochaDehe.init(map);
+
+        const now = new Date();
+        for (const [course, playedDate] of addToMapByDate) {
+            if (now > playedDate) {
+                course.init(map)
+            }
+        }
 
         initLegend(map);
     };
