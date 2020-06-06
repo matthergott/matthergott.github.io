@@ -80,6 +80,11 @@ import monarchBay from "../../golfCourses/monarchBay";
 import remingtonParkviewValley from "../../golfCourses/remingtonParkviewValley";
 import oaksOfStGeorge from "../../golfCourses/oaksOfStGeorge";
 import kedronDells from "../../golfCourses/kedronDells";
+import loraBay from "../../golfCourses/loraBay";
+import cobbleBeach from "../../golfCourses/cobbleBeach";
+import ospreyValleyHoot from "../../golfCourses/ospreyValleyHoot";
+import ospreyValleyNorth from "../../golfCourses/ospreyValleyNorth";
+import lionheadLegends from "../../golfCourses/lionheadLegends";
 
 const GolfMap = (props) => {
     const addToMapByDate = [
@@ -88,6 +93,11 @@ const GolfMap = (props) => {
         [oaksOfStGeorge, new Date(2020, 4, 30)],
         [kedronDells, new Date(2020, 5, 4)],
         [bondHeadSouth, new Date(2020, 5, 8)],
+        [loraBay, new Date(2020, 5, 9)],
+        [cobbleBeach, new Date(2020, 5, 10)],
+        [ospreyValleyNorth, new Date(2020, 5, 11)],
+        [lionheadLegends, new Date(2020, 5, 11)],
+        [ospreyValleyHoot, new Date(2020, 5, 12)],
     ];
 
     window.initMap = () => {

@@ -3,16 +3,16 @@ import ReactDOMServer from 'react-dom/server';
 import initCourse from "../helperFiles/initCourse";
 import iconLinks from "../helperFiles/iconLinks";
 
-const title = 'TPC Toronto at Osprey Valley - Heathlands';
-const city = 'Caledon, ON';
-const designer = 'Doug Carrick | 1990';
-const website = 'https://tpc.com/toronto/heathlands/';
-const coords = { lat: 43.845664, lng: -80.045645 };
+const title = 'The Golf Club at Lora Bay';
+const city = 'Thornbury, ON';
+const designer = 'Tom Lehman & Thomas McBroom | 2006';
+const website = 'https://www.lorabaygolf.com/';
+const coords = { lat: 44.580085, lng: -80.489971 };
 
 const description = ReactDOMServer.renderToStaticMarkup(initCourse.description(title, city, designer, website));
 
 const init = (map) => {
-  initCourse.init(map, title, coords, description, iconLinks.topHundredCanada);
+  initCourse.init(map, title, coords, description, iconLinks.topFiftyNineCanada);
 };
 
 export default {

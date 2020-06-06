@@ -3,11 +3,11 @@ import ReactDOMServer from 'react-dom/server';
 import initCourse from "../helperFiles/initCourse";
 import iconLinks from "../helperFiles/iconLinks";
 
-const title = 'TPC Toronto at Osprey Valley - Heathlands';
-const city = 'Caledon, ON';
-const designer = 'Doug Carrick | 1990';
-const website = 'https://tpc.com/toronto/heathlands/';
-const coords = { lat: 43.845664, lng: -80.045645 };
+const title = 'Cobble Beach Golf Links';
+const city = 'Kemble, ON';
+const designer = 'Doug Carrick | 2006';
+const website = 'https://www.cobblebeach.com/Golf/';
+const coords = { lat: 44.673305, lng: -80.926983 };
 
 const description = ReactDOMServer.renderToStaticMarkup(initCourse.description(title, city, designer, website));
 

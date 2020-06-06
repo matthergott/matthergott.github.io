@@ -5,7 +5,7 @@ import iconLinks from "../helperFiles/iconLinks";
 
 const title = 'Eagles Nest Golf Club';
 const city = 'Maple, ON';
-const designer = 'Doug Carrick';
+const designer = 'Doug Carrick | 2004';
 const website = 'https://www.eaglesnestgolf.com/';
 const coords = { lat: 43.865420, lng: -79.491245 };
 
