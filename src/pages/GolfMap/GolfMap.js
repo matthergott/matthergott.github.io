@@ -184,10 +184,10 @@ const GolfMap = (props) => {
             name: 'Top 100 Public Courses - US - GolfDigest 2019',
             icon: iconLinks.topPublicUs
         },
-        topThirtyCanada: {
-            name: 'Top 30 Courses - Canada - GolfDigest 2018',
-            icon: iconLinks.topThirtyCanada
-        },
+        // topThirtyCanada: {
+        //     name: 'Top 30 Courses - Canada - GolfDigest 2020',
+        //     icon: iconLinks.topThirtyCanada
+        // },
         topHundredCanada: {
             name: 'Top 100 Courses - Canada - SCOREGolf 2018',
             icon: iconLinks.topHundredCanada
