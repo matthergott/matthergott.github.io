@@ -84,10 +84,10 @@ import kedronDells from "../../golfCourses/kedronDells";
 const GolfMap = (props) => {
     const addToMapByDate = [
         [monarchBay, new Date(2019, 9, 6)],
-        [remingtonParkviewValley, new Date(2020, 5, 26)],
-        [oaksOfStGeorge, new Date(2020, 5, 30)],
-        [kedronDells, new Date(2020, 6, 4)],
-        [bondHeadSouth, new Date(2020, 6, 8)],
+        [remingtonParkviewValley, new Date(2020, 4, 26)],
+        [oaksOfStGeorge, new Date(2020, 4, 30)],
+        [kedronDells, new Date(2020, 5, 4)],
+        [bondHeadSouth, new Date(2020, 5, 8)],
     ];
 
     window.initMap = () => {
