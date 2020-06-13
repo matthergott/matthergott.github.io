@@ -3,11 +3,11 @@ import ReactDOMServer from 'react-dom/server';
 import initCourse from "../helperFiles/initCourse";
 import iconLinks from "../helperFiles/iconLinks";
 
-const title = 'Lionhead Golf Club - Legends';
-const city = 'Brampton, ON';
-const designer = 'Ted Baker | 1990';
-const website = 'https://kaneffgolf.com/courses/lionheadgolfconferencecentre/';
-const coords = { lat: 43.641564, lng: -79.787853 };
+const title = 'Hockley Valley Resort';
+const city = 'Mono, ON';
+const designer = 'Thomas McBroom | 1990';
+const website = 'https://hockley.com/golf/';
+const coords = { lat: 43.977562, lng: -80.047519 };
 
 const description = ReactDOMServer.renderToStaticMarkup(initCourse.description(title, city, designer, website));
 

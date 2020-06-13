@@ -84,7 +84,7 @@ import loraBay from "../../golfCourses/loraBay";
 import cobbleBeach from "../../golfCourses/cobbleBeach";
 import ospreyValleyHoot from "../../golfCourses/ospreyValleyHoot";
 import ospreyValleyNorth from "../../golfCourses/ospreyValleyNorth";
-import lionheadLegends from "../../golfCourses/lionheadLegends";
+import hockleyValley from "../../golfCourses/hockleyValley";
 
 const GolfMap = (props) => {
     const addToMapByDate = [
@@ -96,7 +96,7 @@ const GolfMap = (props) => {
         [loraBay, new Date(2020, 5, 9)],
         [cobbleBeach, new Date(2020, 5, 10)],
         [ospreyValleyNorth, new Date(2020, 5, 11)],
-        [lionheadLegends, new Date(2020, 5, 11)],
+        [hockleyValley, new Date(2020, 5, 11)],
         [ospreyValleyHoot, new Date(2020, 5, 12)],
     ];
 
