@@ -85,6 +85,10 @@ import cobbleBeach from "../../golfCourses/cobbleBeach";
 import ospreyValleyHoot from "../../golfCourses/ospreyValleyHoot";
 import ospreyValleyNorth from "../../golfCourses/ospreyValleyNorth";
 import hockleyValley from "../../golfCourses/hockleyValley";
+import hiddenbrooke from "../../golfCourses/hiddenbrooke";
+import sharpPark from "../../golfCourses/sharpPark";
+import peninsula from "../../golfCourses/peninsula";
+import berkeley from "../../golfCourses/berkeley";
 
 const GolfMap = (props) => {
     const addToMapByDate = [
@@ -98,12 +102,16 @@ const GolfMap = (props) => {
         [ospreyValleyNorth, new Date(2020, 5, 11)],
         [hockleyValley, new Date(2020, 5, 11)],
         [ospreyValleyHoot, new Date(2020, 5, 12)],
+        [hiddenbrooke, new Date(2020, 6, 11)],
+        [sharpPark, new Date(2020, 6, 13)],
+        [peninsula, new Date(2020, 6, 17)],
+        [berkeley, new Date(2020, 6, 18)],
     ];
 
     window.initMap = () => {
         const map = new window.google.maps.Map(document.getElementById('google-map'), {
-            zoom: 7,
-            center: {lat: 43.838, lng: -79.084} // open to Pickering
+            zoom: 8,
+            center: {lat: 37.790480, lng: -122.401154} // open to SF
         });
 
         angusGlen.init(map);
