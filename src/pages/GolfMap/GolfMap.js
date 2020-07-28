@@ -89,6 +89,12 @@ import hiddenbrooke from "../../golfCourses/hiddenbrooke";
 import sharpPark from "../../golfCourses/sharpPark";
 import peninsula from "../../golfCourses/peninsula";
 import berkeley from "../../golfCourses/berkeley";
+import halfMoonBayOld from "../../golfCourses/halfMoonBayOld";
+import gleneagles from "../../golfCourses/gleneagles";
+import presidio from "../../golfCourses/presidio";
+import lakeMerced from "../../golfCourses/lakeMerced";
+import crystalSprings from "../../golfCourses/crystalSprings";
+import halfMoonBayOcean from "../../golfCourses/halfMoonBayOcean";
 
 const GolfMap = (props) => {
     const addToMapByDate = [
@@ -104,8 +110,14 @@ const GolfMap = (props) => {
         [ospreyValleyHoot, new Date(2020, 5, 12)],
         [hiddenbrooke, new Date(2020, 6, 11)],
         [sharpPark, new Date(2020, 6, 13)],
-        [peninsula, new Date(2020, 6, 17)],
         [berkeley, new Date(2020, 6, 18)],
+        [halfMoonBayOld, new Date(2020, 6, 19)],
+        [gleneagles, new Date(2020, 6, 27)],
+        [presidio, new Date(2020, 6, 29)],
+        [lakeMerced, new Date(2020, 6, 31)],
+        [crystalSprings, new Date(2020, 7, 3)],
+        [halfMoonBayOcean, new Date(2020, 7, 22)],
+        [peninsula, new Date(2020, 8, 1)],
     ];
 
     window.initMap = () => {
