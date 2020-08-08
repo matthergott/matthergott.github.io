@@ -95,6 +95,7 @@ import presidio from "../../golfCourses/presidio";
 import lakeMerced from "../../golfCourses/lakeMerced";
 import crystalSprings from "../../golfCourses/crystalSprings";
 import halfMoonBayOcean from "../../golfCourses/halfMoonBayOcean";
+import sandCanyon from "../../golfCourses/sandCanyon";
 
 const GolfMap = (props) => {
     const addToMapByDate = [
@@ -116,6 +117,7 @@ const GolfMap = (props) => {
         [presidio, new Date(2020, 6, 29)],
         [lakeMerced, new Date(2020, 6, 31)],
         [crystalSprings, new Date(2020, 7, 3)],
+        [sandCanyon, new Date(2020, 7, 8)],
         [halfMoonBayOcean, new Date(2020, 7, 22)],
         [peninsula, new Date(2020, 8, 1)],
     ];
