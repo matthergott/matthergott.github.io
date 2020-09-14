@@ -3,11 +3,11 @@ import ReactDOMServer from 'react-dom/server';
 import initCourse from "../helperFiles/initCourse";
 import iconLinks from "../helperFiles/iconLinks";
 
-const title = 'Half Moon Bay Golf Links - The Ocean Course';
-const city = 'Half Moon Bay, CA';
-const designer = 'Arthur Hills | 1997';
-const website = 'https://www.halfmoonbaygolf.com/the-ocean-course';
-const coords = { lat: 37.427145, lng: -122.434915 };
+const title = 'TPC Harding Park';
+const city = 'Daly City, CA';
+const designer = 'Willie Watson & Sam Whiting | 1925';
+const website = 'https://tpc.com/hardingpark/';
+const coords = { lat: 37.724364, lng: -122.493648 };
 
 const description = ReactDOMServer.renderToStaticMarkup(initCourse.description(title, city, designer, website));
 

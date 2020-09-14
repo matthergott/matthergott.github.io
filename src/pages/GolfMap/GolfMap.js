@@ -96,6 +96,12 @@ import lakeMerced from "../../golfCourses/lakeMerced";
 import crystalSprings from "../../golfCourses/crystalSprings";
 import halfMoonBayOcean from "../../golfCourses/halfMoonBayOcean";
 import sandCanyon from "../../golfCourses/sandCanyon";
+import rusticCanyon from "../../golfCourses/rusticCanyon";
+import oakQuarry from "../../golfCourses/oakQuarry";
+import eagleVines from "../../golfCourses/eagleVines";
+import hardingPark from "../../golfCourses/hardingPark";
+import northwood from "../../golfCourses/northwood";
+import bodegaHarbour from "../../golfCourses/bodegaHarbour";
 
 const GolfMap = (props) => {
     const addToMapByDate = [
@@ -118,8 +124,14 @@ const GolfMap = (props) => {
         [lakeMerced, new Date(2020, 6, 31)],
         [crystalSprings, new Date(2020, 7, 3)],
         [sandCanyon, new Date(2020, 7, 8)],
-        [halfMoonBayOcean, new Date(2020, 7, 22)],
-        [peninsula, new Date(2020, 8, 1)],
+        [halfMoonBayOcean, new Date(2020, 8, 12)],
+        // [peninsula, new Date(2020, 8, 1)],
+        [rusticCanyon, new Date(2020, 8, 30)],
+        [oakQuarry, new Date(2020, 9, 3)],
+        [eagleVines, new Date(2020, 9, 10)],
+        [hardingPark, new Date(2020, 9, 17)],
+        [northwood, new Date(2020, 9, 24)],
+        [bodegaHarbour, new Date(2020, 9, 25)],
     ];
 
     window.initMap = () => {

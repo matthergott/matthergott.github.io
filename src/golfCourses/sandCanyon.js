@@ -5,7 +5,7 @@ import iconLinks from "../helperFiles/iconLinks";
 
 const title = 'Sand Canyon Country Club';
 const city = 'Santa Clarita, CA';
-const designer = 'Ted Robinson Sr. and Ted Robinson Jr. | 1999';
+const designer = 'Ted Robinson Sr. & Ted Robinson Jr. | 1999';
 const website = 'https://www.sandcanyoncc.com/';
 const coords = { lat: 34.411266, lng: -118.415469 };
 

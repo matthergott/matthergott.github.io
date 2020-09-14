@@ -4,8 +4,8 @@ import initCourse from "../helperFiles/initCourse";
 import iconLinks from "../helperFiles/iconLinks";
 
 const title = 'Half Moon Golf Course';
-const city = 'St.Bran\'s Burg, Jamaica';
-const designer = 'Robert Trent Jones, Sr. | 1962';
+const city = 'St. Bran\'s Burg, Jamaica';
+const designer = 'Robert Trent Jones Sr. | 1962';
 const website = 'https://www.halfmoon.com/golf/';
 const coords = { lat: 18.521759, lng: -77.839474 };
 

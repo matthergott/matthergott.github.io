@@ -3,11 +3,11 @@ import ReactDOMServer from 'react-dom/server';
 import initCourse from "../helperFiles/initCourse";
 import iconLinks from "../helperFiles/iconLinks";
 
-const title = 'Half Moon Bay Golf Links - The Ocean Course';
-const city = 'Half Moon Bay, CA';
-const designer = 'Arthur Hills | 1997';
-const website = 'https://www.halfmoonbaygolf.com/the-ocean-course';
-const coords = { lat: 37.427145, lng: -122.434915 };
+const title = 'Eagle Vines Golf Club';
+const city = 'American Canyon, CA';
+const designer = 'Johnny Miller | 2004';
+const website = 'http://www.eaglevinesgolfclub.com/';
+const coords = { lat: 38.218214, lng: -122.251033 };
 
 const description = ReactDOMServer.renderToStaticMarkup(initCourse.description(title, city, designer, website));
 

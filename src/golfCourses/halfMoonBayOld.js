@@ -5,7 +5,7 @@ import iconLinks from "../helperFiles/iconLinks";
 
 const title = 'Half Moon Bay Golf Links - The Old Course';
 const city = 'Half Moon Bay, CA';
-const designer = 'Arthur Hills | 1997';
+const designer = 'Arnold Palmer & Francis Duane | 1973';
 const website = 'https://www.halfmoonbaygolf.com/the-old-course';
 const coords = { lat: 37.435665, lng: -122.442683 };
 
