@@ -3,11 +3,11 @@ import ReactDOMServer from 'react-dom/server';
 import initCourse from "../helperFiles/initCourse";
 import iconLinks from "../helperFiles/iconLinks";
 
-const title = 'Crystal Springs Golf Course';
-const city = 'Burlingame, CA';
-const designer = 'William Herbert Fowler | 1924';
-const website = 'https://www.playcrystalsprings.com/';
-const coords = { lat: 37.557761, lng: -122.381992 };
+const title = 'Porter Valley Country Club';
+const city = 'Northridge, CA';
+const designer = 'Ted Robinson | 1968';
+const website = 'https://www.clubcorp.com/Clubs/Porter-Valley-Country-Club/Amenities/Golf';
+const coords = { lat: 34.275983, lng: -118.553703 };
 
 const description = ReactDOMServer.renderToStaticMarkup(initCourse.description(title, city, designer, website));
 

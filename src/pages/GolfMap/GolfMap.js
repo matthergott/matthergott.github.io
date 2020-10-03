@@ -97,7 +97,9 @@ import crystalSprings from "../../golfCourses/crystalSprings";
 import halfMoonBayOcean from "../../golfCourses/halfMoonBayOcean";
 import sandCanyon from "../../golfCourses/sandCanyon";
 import rusticCanyon from "../../golfCourses/rusticCanyon";
+import porterValley from "../../golfCourses/porterValley";
 import oakQuarry from "../../golfCourses/oakQuarry";
+import calClub from "../../golfCourses/calClub";
 import eagleVines from "../../golfCourses/eagleVines";
 import hardingPark from "../../golfCourses/hardingPark";
 import northwood from "../../golfCourses/northwood";
@@ -127,7 +129,9 @@ const GolfMap = (props) => {
         [halfMoonBayOcean, new Date(2020, 8, 12)],
         // [peninsula, new Date(2020, 8, 1)],
         [rusticCanyon, new Date(2020, 8, 30)],
+        [porterValley, new Date(2020, 9, 2)],
         [oakQuarry, new Date(2020, 9, 3)],
+        [calClub, new Date(2020, 9, 5)],
         [eagleVines, new Date(2020, 9, 10)],
         [hardingPark, new Date(2020, 9, 17)],
         [northwood, new Date(2020, 9, 24)],
