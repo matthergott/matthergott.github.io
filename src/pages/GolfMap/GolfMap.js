@@ -104,6 +104,7 @@ import eagleVines from "../../golfCourses/eagleVines";
 import hardingPark from "../../golfCourses/hardingPark";
 import northwood from "../../golfCourses/northwood";
 import bodegaHarbour from "../../golfCourses/bodegaHarbour";
+import angelesNational from "../../golfCourses/angelesNational";
 
 const GolfMap = (props) => {
     const addToMapByDate = [
@@ -136,6 +137,7 @@ const GolfMap = (props) => {
         [hardingPark, new Date(2020, 9, 17)],
         [northwood, new Date(2020, 9, 24)],
         [bodegaHarbour, new Date(2020, 9, 25)],
+        [angelesNational, new Date(2020, 9, 27)],
     ];
 
     window.initMap = () => {
