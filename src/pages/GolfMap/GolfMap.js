@@ -107,6 +107,8 @@ import bodegaHarbour from "../../golfCourses/bodegaHarbour";
 import angelesNational from "../../golfCourses/angelesNational";
 import braemar from "../../golfCourses/braemar";
 import richmond from "../../golfCourses/richmond";
+import pasatiempo from "../../golfCourses/pasatiempo";
+import carmelValleyRanch from "../../golfCourses/carmelValleyRanch";
 
 const GolfMap = (props) => {
     const addToMapByDate = [
@@ -142,6 +144,8 @@ const GolfMap = (props) => {
         [angelesNational, new Date(2020, 9, 27)],
         [braemar, new Date(2020, 10, 26)],
         [richmond, new Date(2020, 10, 8)],
+        [carmelValleyRanch, new Date(2021, 0, 19)],
+        [pasatiempo, new Date(2021, 1, 14)],
     ];
 
     window.initMap = () => {
@@ -234,16 +238,16 @@ const GolfMap = (props) => {
     window.document.body.appendChild(googleMapsScript);
 
     const icons = {
-        topPublicUs: {
-            name: 'Top 100 Public Courses - US - GolfDigest 2019',
-            icon: iconLinks.topPublicUs
+        topHundredUs: {
+          name: 'Top 100 Courses - US - GOLF Magazine 2020',
+          icon: iconLinks.topHundredUs
         },
-        // topThirtyCanada: {
-        //     name: 'Top 30 Courses - Canada - GolfDigest 2020',
-        //     icon: iconLinks.topThirtyCanada
-        // },
+        topHundredPublicUs: {
+            name: 'Top 100 Public Courses - US - GolfDigest 2019',
+            icon: iconLinks.topHundredPublicUs
+        },
         topHundredCanada: {
-            name: 'Top 100 Courses - Canada - SCOREGolf 2018',
+            name: 'Top 100 Courses - Canada - SCOREGolf 2020',
             icon: iconLinks.topHundredCanada
         },
         topFiftyNineCanada: {

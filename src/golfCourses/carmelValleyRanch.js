@@ -3,16 +3,16 @@ import ReactDOMServer from 'react-dom/server';
 import initCourse from "../helperFiles/initCourse";
 import iconLinks from "../helperFiles/iconLinks";
 
-const title = 'Wild Horse Golf Club';
-const city = 'Gothenburg, NE';
-const designer = 'Dan Proctor & Dave Axland | 1999';
-const website = 'https://www.playwildhorse.com';
-const coords = { lat: 40.954336, lng: -100.194534 };
+const title = 'Carmel Valley Ranch Golf Course';
+const city = 'Carmel, CA';
+const designer = 'Pete Dye | 1981';
+const website = 'https://www.carmelvalleyranch.com/golf';
+const coords = { lat: 36.517334536059224, lng: -121.79931795513981 };
 
 const description = ReactDOMServer.renderToStaticMarkup(initCourse.description(title, city, designer, website));
 
 const init = (map) => {
-  initCourse.init(map, title, coords, description, iconLinks.topHundredPublicUs);
+  initCourse.init(map, title, coords, description, iconLinks.unlisted);
 };
 
 export default {
