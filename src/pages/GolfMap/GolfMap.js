@@ -87,7 +87,6 @@ import ospreyValleyNorth from "../../golfCourses/ospreyValleyNorth";
 import hockleyValley from "../../golfCourses/hockleyValley";
 import hiddenbrooke from "../../golfCourses/hiddenbrooke";
 import sharpPark from "../../golfCourses/sharpPark";
-import peninsula from "../../golfCourses/peninsula";
 import berkeley from "../../golfCourses/berkeley";
 import halfMoonBayOld from "../../golfCourses/halfMoonBayOld";
 import gleneagles from "../../golfCourses/gleneagles";
@@ -109,6 +108,8 @@ import braemar from "../../golfCourses/braemar";
 import richmond from "../../golfCourses/richmond";
 import pasatiempo from "../../golfCourses/pasatiempo";
 import carmelValleyRanch from "../../golfCourses/carmelValleyRanch";
+import poppyHills from "../../golfCourses/poppyHills";
+import santaRosa from "../../golfCourses/santaRosa";
 
 const GolfMap = (props) => {
     const addToMapByDate = [
@@ -132,7 +133,6 @@ const GolfMap = (props) => {
         [crystalSprings, new Date(2020, 7, 3)],
         [sandCanyon, new Date(2020, 7, 8)],
         [halfMoonBayOcean, new Date(2020, 8, 12)],
-        // [peninsula, new Date(2020, 8, 1)],
         [rusticCanyon, new Date(2020, 8, 30)],
         [porterValley, new Date(2020, 9, 2)],
         [oakQuarry, new Date(2020, 9, 3)],
@@ -146,6 +146,8 @@ const GolfMap = (props) => {
         [richmond, new Date(2020, 10, 8)],
         [carmelValleyRanch, new Date(2021, 0, 19)],
         [pasatiempo, new Date(2021, 1, 14)],
+        [poppyHills, new Date(2021, 1, 14)],
+        [santaRosa, new Date(2021, 1, 14)],
     ];
 
     window.initMap = () => {
