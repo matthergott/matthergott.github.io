@@ -146,8 +146,8 @@ const GolfMap = (props) => {
         [richmond, new Date(2020, 10, 8)],
         [carmelValleyRanch, new Date(2021, 0, 19)],
         [pasatiempo, new Date(2021, 1, 14)],
-        [poppyHills, new Date(2021, 1, 14)],
-        [santaRosa, new Date(2021, 1, 14)],
+        [poppyHills, new Date(2021, 2, 14)],
+        [santaRosa, new Date(2021, 2, 21)],
     ];
 
     window.initMap = () => {
