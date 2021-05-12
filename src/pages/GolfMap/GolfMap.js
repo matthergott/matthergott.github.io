@@ -110,6 +110,15 @@ import pasatiempo from "../../golfCourses/pasatiempo";
 import carmelValleyRanch from "../../golfCourses/carmelValleyRanch";
 import poppyHills from "../../golfCourses/poppyHills";
 import santaRosa from "../../golfCourses/santaRosa";
+import oldMac from "../../golfCourses/oldMac";
+import bandonDunes from "../../golfCourses/bandonDunes";
+import bandonTrails from "../../golfCourses/bandonTrails";
+import pacificDunes from "../../golfCourses/pacificDunes";
+import bandonPreserve from "../../golfCourses/bandonPreserve";
+import valencia from "../../golfCourses/valencia";
+import chardonnay from "../../golfCourses/chardonnay";
+import banffSprings from "../../golfCourses/banffSprings";
+import jasperParkLodge from "../../golfCourses/jasperParkLodge";
 
 const GolfMap = (props) => {
     const addToMapByDate = [
@@ -148,6 +157,8 @@ const GolfMap = (props) => {
         [pasatiempo, new Date(2021, 1, 14)],
         [poppyHills, new Date(2021, 2, 14)],
         [santaRosa, new Date(2021, 2, 21)],
+        [banffSprings, new Date(2021, 7, 28)],
+        [jasperParkLodge, new Date(2021, 7, 24)],
     ];
 
     window.initMap = () => {
@@ -158,6 +169,9 @@ const GolfMap = (props) => {
 
         angusGlen.init(map);
         ballantrae.init(map);
+        bandonDunes.init(map);
+        bandonTrails.init(map);
+        bandonPreserve.init(map);
         bardmoor.init(map);
         batteauxCreek.init(map);
         blackDiamond.init(map);
@@ -166,6 +180,7 @@ const GolfMap = (props) => {
         burford.init(map);
         bushwood.init(map);
         carruthersCreek.init(map);
+        chardonnay.init(map);
         cherryDowns.init(map);
         cinnamonHill.init(map);
         cogHillRavines.init(map);
@@ -199,8 +214,10 @@ const GolfMap = (props) => {
         moccasinWallow.init(map);
         monterra.init(map);
         oakridge.init(map);
+        oldMac.init(map);
         ospreyValleyHeathlands.init(map);
         otterCreek.init(map);
+        pacificDunes.init(map);
         pinestone.init(map);
         rebelCreek.init(map);
         redlandsMesa.init(map);
@@ -214,6 +231,7 @@ const GolfMap = (props) => {
         soldierHollow.init(map);
         tarandowah.init(map);
         timberRidge.init(map);
+        valencia.init(map);
         watsonsGlen.init(map);
         whisperingRidge.init(map);
         whitevale.init(map);
@@ -240,13 +258,13 @@ const GolfMap = (props) => {
     window.document.body.appendChild(googleMapsScript);
 
     const icons = {
-        topHundredUs: {
-          name: 'Top 100 Courses - US - GOLF Magazine 2020',
-          icon: iconLinks.topHundredUs
+        topHundredWorld: {
+          name: 'Top 100 Courses - World - GOLF Magazine 2020',
+          icon: iconLinks.topHundredWorld
         },
-        topHundredPublicUs: {
-            name: 'Top 100 Public Courses - US - GolfDigest 2019',
-            icon: iconLinks.topHundredPublicUs
+        topHundredPublicNorthAmerica: {
+            name: 'Top 100 Public Courses - North America - GOLF Magazine 2021',
+            icon: iconLinks.topHundredPublicNorthAmerica
         },
         topHundredCanada: {
             name: 'Top 100 Courses - Canada - SCOREGolf 2020',

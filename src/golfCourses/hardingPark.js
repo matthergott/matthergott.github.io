@@ -5,7 +5,7 @@ import iconLinks from "../helperFiles/iconLinks";
 
 const title = 'TPC Harding Park';
 const city = 'Daly City, CA';
-const designer = 'Willie Watson & Sam Whiting | 1925';
+const designer = 'Willie Watson & Sam Whiting | 1925 / R. 2003';
 const website = 'https://tpc.com/hardingpark/';
 const coords = { lat: 37.724364, lng: -122.493648 };
 

@@ -1,11 +1,11 @@
 const iconBase = 'http://maps.google.com/mapfiles/ms/icons/';
 
 const iconLinks = {
-    topHundredPublicUs: iconBase + 'green-dot.png',
-    topHundredUs: iconBase + 'blue-dot.png',
-    topHundredCanada: iconBase + 'orange-dot.png',
+    unlisted: iconBase + 'red-dot.png',
     topFiftyNineCanada: iconBase + 'pink-dot.png',
-    unlisted: iconBase + 'red-dot.png'
+    topHundredCanada: iconBase + 'orange-dot.png',
+    topHundredPublicNorthAmerica: iconBase + 'green-dot.png',
+    topHundredWorld: iconBase + 'blue-dot.png',
 };
 
 export default iconLinks;

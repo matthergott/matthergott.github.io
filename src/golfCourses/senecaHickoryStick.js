@@ -5,7 +5,7 @@ import iconLinks from "../helperFiles/iconLinks";
 
 const title = 'Seneca Hickory Stick Golf Course';
 const city = 'Lewiston, NY';
-const designer = 'Robert Trent Jones II';
+const designer = 'Robert Trent Jones Jr. | 2010';
 const website = 'http://www.senecahickorystick.com/';
 const coords = { lat: 43.194235, lng: -79.022898 };
 

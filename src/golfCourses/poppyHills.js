@@ -12,7 +12,7 @@ const coords = { lat: 36.58230898550284, lng: -121.93842531045631 };
 const description = ReactDOMServer.renderToStaticMarkup(initCourse.description(title, city, designer, website));
 
 const init = (map) => {
-  initCourse.init(map, title, coords, description, iconLinks.topHundredPublicUs);
+  initCourse.init(map, title, coords, description, iconLinks.unlisted);
 };
 
 export default {
