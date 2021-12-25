@@ -3,11 +3,11 @@ import ReactDOMServer from 'react-dom/server';
 import initCourse from "../helperFiles/initCourse";
 import iconLinks from "../helperFiles/iconLinks";
 
-const title = 'The Golf Club at Lora Bay';
-const city = 'Thornbury, ON';
-const designer = 'Tom Lehman & Thomas McBroom | 2006';
-const website = 'https://www.lorabaygolf.com/';
-const coords = { lat: 44.580085, lng: -80.489971 };
+const title = 'Silverado Resort - North Course';
+const city = 'Napa, CA';
+const designer = 'Robert Trent Jones Jr. | 1966 / Johnny Miller | R. 2011';
+const website = 'https://www.silveradoresort.com/napa-valley-golf/courses';
+const coords = { lat: 38.350028680961756, lng: -122.26508528551528 };
 
 const description = ReactDOMServer.renderToStaticMarkup(initCourse.description(title, city, designer, website));
 

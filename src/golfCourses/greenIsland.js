@@ -3,16 +3,16 @@ import ReactDOMServer from 'react-dom/server';
 import initCourse from "../helperFiles/initCourse";
 import iconLinks from "../helperFiles/iconLinks";
 
-const title = 'The Club at Bond Head - South Course';
-const city = 'Bond Head, ON';
-const designer = 'Jason Straka';
-const website = 'https://bondhead.clublink.ca';
-const coords = { lat: 44.081923, lng: -79.697037 };
+const title = 'Green Island Country Club';
+const city = 'Columbus, GA';
+const designer = 'George Cobb & Joe Lee | 1961';
+const website = 'https://www.greenislandcc.org/';
+const coords = { lat: 32.53825278104476, lng: -85.0058417021988 };
 
 const description = ReactDOMServer.renderToStaticMarkup(initCourse.description(title, city, designer, website));
 
 const init = (map) => {
-  initCourse.init(map, title, coords, description, iconLinks.topFiftyNineCanada);
+  initCourse.init(map, title, coords, description, iconLinks.unlisted);
 };
 
 export default {
