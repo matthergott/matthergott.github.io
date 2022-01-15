@@ -138,6 +138,8 @@ import jacaranda from "../../golfCourses/jacaranda";
 import bocaLago from "../../golfCourses/bocaLago";
 import bonaventure from "../../golfCourses/bonaventure";
 import pgaNationalPalmer from "../../golfCourses/pgaNationalPalmer";
+import kaanapaliKai from "../../golfCourses/kaanapaliKai";
+import kaanapaliRoyal from "../../golfCourses/kaanapaliRoyal";
 
 const GolfMap = (props) => {
     const addToMapByDate = [
@@ -239,6 +241,8 @@ const GolfMap = (props) => {
         innerkip.init(map);
         innisbrookCopperhead.init(map);
         jacaranda.init(map);
+        kaanapaliKai.init(map);
+        kaanapaliRoyal.init(map);
         kapaluaPlantation.init(map);
         lakeridgeLinks.init(map);
         linksOfGlenEagles.init(map);
