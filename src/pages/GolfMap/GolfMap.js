@@ -34,7 +34,8 @@ import woodstockMeadows from "../../golfCourses/woodstockMeadows";
 import grandValleyGolf from "../../golfCourses/grandValleyGolf";
 import rebelCreek from "../../golfCourses/rebelCreek";
 import sallyCreek from "../../golfCourses/sallyCreek";
-import creekside from "../../golfCourses/creekside";
+import creeksideON from "../../golfCourses/creeksideON";
+import creeksideCA from "../../golfCourses/creeksideCA";
 import doonValley from "../../golfCourses/doonValley";
 import monterra from "../../golfCourses/monterra";
 import blackDiamond from "../../golfCourses/blackDiamond";
@@ -140,6 +141,13 @@ import bonaventure from "../../golfCourses/bonaventure";
 import pgaNationalPalmer from "../../golfCourses/pgaNationalPalmer";
 import kaanapaliKai from "../../golfCourses/kaanapaliKai";
 import kaanapaliRoyal from "../../golfCourses/kaanapaliRoyal";
+import talega from "../../golfCourses/talega";
+import pageBelcher from "../../golfCourses/pageBelcher";
+import battleCreek from "../../golfCourses/battleCreek";
+import forestRidge from "../../golfCourses/forestRidge";
+import lincolnPark from "../../golfCourses/lincolnPark";
+import camarilloSprings from "../../golfCourses/camarilloSprings";
+import wente from "../../golfCourses/wente";
 
 const GolfMap = (props) => {
     const addToMapByDate = [
@@ -195,6 +203,7 @@ const GolfMap = (props) => {
         bandonPreserve.init(map);
         bardmoor.init(map);
         batteauxCreek.init(map);
+        battleCreek.init(map);
         baylands.init(map);
         blackDiamond.init(map);
         blackHorse.init(map);
@@ -205,6 +214,7 @@ const GolfMap = (props) => {
         bunkerHill.init(map);
         burford.init(map);
         bushwood.init(map);
+        camarilloSprings.init(map);
         carruthersCreek.init(map);
         chardonnay.init(map);
         cherryDowns.init(map);
@@ -214,7 +224,8 @@ const GolfMap = (props) => {
         copperCreek.init(map);
         coricaSouth.init(map);
         countryClubOfColumbus.init(map);
-        creekside.init(map);
+        creeksideCA.init(map);
+        creeksideON.init(map);
         deerCreekNorth.init(map);
         deerCreekSouth.init(map);
         deerhurstHighlands.init(map);
@@ -226,6 +237,7 @@ const GolfMap = (props) => {
         eagleRanch.init(map);
         eaglesNest.init(map);
         eastBay.init(map);
+        forestRidge.init(map);
         foxbridge.init(map);
         foxRun.init(map);
         glenCedars.init(map);
@@ -245,6 +257,7 @@ const GolfMap = (props) => {
         kaanapaliRoyal.init(map);
         kapaluaPlantation.init(map);
         lakeridgeLinks.init(map);
+        lincolnPark.init(map);
         linksOfGlenEagles.init(map);
         meadowbrook.init(map);
         metro.init(map);
@@ -257,6 +270,7 @@ const GolfMap = (props) => {
         ospreyValleyHeathlands.init(map);
         otterCreek.init(map);
         pacificDunes.init(map);
+        pageBelcher.init(map);
         pgaNationalPalmer.init(map);
         pinestone.init(map);
         rebelCreek.init(map);
@@ -271,10 +285,12 @@ const GolfMap = (props) => {
         shoreline.init(map);
         silveradoNorth.init(map);
         soldierHollow.init(map);
+        talega.init(map);
         tarandowah.init(map);
         timberRidge.init(map);
         valencia.init(map);
         watsonsGlen.init(map);
+        wente.init(map);
         whisperingRidge.init(map);
         whitevale.init(map);
         wildHorse.init(map);
